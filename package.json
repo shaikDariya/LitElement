@@ -1,0 +1,38 @@
+{
+  "name": "@my-webcomponent/title",
+  "version": "1.0.0",
+  "description": "Title Webcomponent",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c --environment BUILD:development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaikDariya/LitElement.git"
+  },
+  "author": "Shaik Dariya <shaikdariya51@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaikDariya/LitElement/issues"
+  },
+  "homepage": "https://github.com/shaikDariya/LitElement#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-typescript": "^7.7.4",
+    "rollup": "^1.27.9",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-inject": "^3.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "typescript": "^3.7.3",
+    "typescript-lit-html-plugin": "^0.9.0"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  }
+}
